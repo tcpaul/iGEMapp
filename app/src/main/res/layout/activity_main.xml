@@ -8,45 +8,55 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.edu.exigem.MainActivity">
+    tools:context="com.example.edu.exigem.MainActivity"
+    android:background="@android:color/white">
 
+    <!--
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/editText"
+           android:layout_centerVertical="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginLeft="524dp"
+           android:layout_marginStart="524dp" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="524dp"
-        android:layout_marginStart="524dp" />
+     <ImageButton
+           android:src="@drawable/testa"
+           android:scaleType="fitCenter"
+           android:layout_width="240dp"
+           android:layout_height="80dp"
+           android:id="@+id/imageButton"
+           android:clickable="true"
+           android:onClick="doTest"
+           android:background="@null"
+           android:layout_above="@+id/editText"
+           android:layout_centerHorizontal="true" />-->
 
     <ImageButton
-        android:src="@drawable/testa"
+        android:src="@drawable/rundinfo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="15dp"
         android:scaleType="fitCenter"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="324dp"
-        android:layout_marginStart="54dp"
-        android:layout_width="240dp"
-        android:layout_height="80dp"
-        android:id="@+id/imageButton"
+        android:id="@+id/info"
         android:clickable="true"
-        android:onClick="doTest"/>
-
-    <ImageButton
-        android:src="@drawable/info"
-        android:scaleType="centerInside"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:id="@+id/imageButton2"
+        android:onClick="info"
+        android:background="@null"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:clickable="true"
-        android:onClick="info"/>
+        android:layout_alignParentEnd="true" />
 
+    <ImageView
+        android:src="@drawable/textone"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+<!--
     <ImageButton
         android:src="@drawable/screeningsknapp_app"
         android:scaleType="fitCenter"
@@ -54,6 +64,30 @@
         android:layout_height="80dp"
         android:id="@+id/imageButton3"
         android:layout_below="@+id/imageButton"
+        android:background="@null"
         android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignStart="@+id/imageButton" />
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />-->
+
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button_image"/>
+
+    <ImageButton
+        android:src="@drawable/camerabutton"
+        android:id="@+id/button_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:onClick="takepicture"
+        android:background="@null"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

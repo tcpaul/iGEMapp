@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.edu.exigem.DisplayTest">
 
-    <ImageView
+   <!-- <ImageView
         android:id="@+id/penta"
         android:src="@drawable/penta2"
         android:scaleType="fitCenter"
@@ -23,5 +23,12 @@
         android:layout_below="@+id/penta"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/button_image"/>-->
 
 </RelativeLayout>

@@ -12,9 +12,12 @@ import android.widget.TextView;
 
 public class DisplayTest extends AppCompatActivity {
 
-    private ImageView imageView;
-    private TextView textView1;
-    private Bitmap bitmap;
+
+    //private ImageView imageView;
+    //private ImageView imageView;
+    //private TextView textView1;
+    //private Bitmap bitmap;
+    //private MainActivity mClass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,16 +25,20 @@ public class DisplayTest extends AppCompatActivity {
         setContentView(R.layout.activity_display_test);
 
         Intent intent = getIntent();
-       // String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-        TextView textView2 = new TextView(this);
-        textView2.setTextSize(40);
-       // textView2.setText(message);
+        // String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        //     TextView textView2 = new TextView(this);
+        //   textView2.setTextSize(40);
+        // textView2.setText(message);
 
-      //  ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
+        //  ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
 
-       // layout.addView(textView2);
+        // layout.addView(textView2);
+       // imageView = (ImageView) findViewById(R.id.imageview);
+       // mClass = new MainActivity();
+    }
 
-        imageView = (ImageView) findViewById(R.id.penta);
+
+        /*imageView = (ImageView) findViewById(R.id.penta);
         textView1 = (TextView) findViewById(R.id.pent);
 
         imageView.setDrawingCacheEnabled(true);
@@ -54,9 +61,9 @@ public class DisplayTest extends AppCompatActivity {
                 int g = Color.green(pixel);
                 int b = Color.blue(pixel);
 */
-                textView1.setText("pixels are:"+topPixel+"\n:"+leftPixel+"\n:"+midPixel+"\n:"+rightPixel+"\n:"+botPixel+"\n:");
+             /*   textView1.setText("pixels are:"+topPixel+"\n:"+leftPixel+"\n:"+midPixel+"\n:"+rightPixel+"\n:"+botPixel+"\n:");
 
-                /*//HOW to find specific pixels by touching
+                /*HOW to find specific pixels by touching
                 if(motionEvent.getAction() == MotionEvent.ACTION_DOWN || motionEvent.getAction() == MotionEvent.ACTION_MOVE){
                     bitmap = imageView.getDrawingCache();
                     int x = (int) motionEvent.getX();
@@ -69,11 +76,11 @@ public class DisplayTest extends AppCompatActivity {
 
                     //textView.setBackgroundColor(Color.rgb(r,g,b));
                     textView.setText("R("+r+")\n"+"G("+g+")\n"+"B("+b+")\n\n"+"pixel is:"+pixel+"\nx:"+x+"\ny:"+y);
-                */
+
                 //}//
                 return true;
             }
 
         });
-    }
+    }*/
 }
