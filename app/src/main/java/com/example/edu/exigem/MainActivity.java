@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         roundcamerabutton = (ImageButton) findViewById(R.id.button_image);
         showpicture = (ImageView) findViewById(R.id.picture);
 
-
         /* Tilgang til kamera og lagring */
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             roundcamerabutton.setEnabled(false);
@@ -71,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == 100) {
             if (resultCode == RESULT_OK) {
                 showpicture.setImageURI(pictureuri);
+                View d = findViewById(R.id.imageButton);
+                d.setVisibility(View.VISIBLE);
+
             }
         }
     }

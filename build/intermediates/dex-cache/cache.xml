@@ -2,74 +2,94 @@
 <items version="2" >
 
     <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Swg\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_3b4e9fef25e476a668643e91da5325d3f976e9a6/classes.dex" />
-    </item>
-    <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="02a3c19a9279038d6c17fb555472787f207ace25">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ecc4f9d7674c8eba992cefb0ae0e48991990c3d0/classes.dex" />
-    </item>
-    <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_1a1c7b95e1e4cd3fa20e54c4457279bc3e53a27e/classes.dex" />
-    </item>
-    <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_2458ec84c2330360f5a425bca2c3f39aa896a424/classes.dex" />
-    </item>
-    <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_cdeceb4e6b33f62bef318729e17a3d6e97a2cd99/classes.dex" />
-    </item>
-    <item
-        jar="/Users/RozaMoustafa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
-        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_74541f8201ab8bc5d1e015bba7f159f5c3bcb5d8/classes.dex" />
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6e1a8e28352437408e37c4d7f6d09dc70b6e831d\classes.dex" />
     </item>
     <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_ac608c2355cd19b847903cb35c024e93ff0b85c9/classes.dex" />
+        sha1="f5d367b1a1d1c5f2b5153fbd13ea23b38ffcc6b0">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_42ad6c8bb43410477d566ff7c070019700c6ca73\classes.dex" />
     </item>
     <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
         revision="23.0.3"
-        sha1="0d825bc2b4a2c45c6576e9c07108df986506e3ab">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9f0817b1067195796a73c3e6327dc03b3a71f8a2/classes.dex" />
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_3780440d5f6bb4d0df35846829d8b9f0212d2185\classes.dex" />
     </item>
     <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
         jumboMode="true"
-        revision="23.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_8debecc4d21d6fb70b71ad4eea42d3bfa8fd72f5/classes.dex" />
-    </item>
-    <item
-        jar="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
+        optimize="true"
         revision="23.0.3"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/RozaMoustafa/AndroidStudioProjects/iGEMapp/iGEMapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_34a7eb4e2f3956c63281ed6cd80dea2531d1aa36/classes.dex" />
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_6f937e233be426cade37fd1a7f749bcc0e684700\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_c6e15251489871e06973c5a8f96121401ab3e4b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_ce3eb4cf53f9fb3a4e679537e1f6cd249c1dfc75\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c6d56c6f066e5a7161799842d04ac20656e38625">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e3b6a66dd8174b6bc4cfe4a7235b06f942f9b353\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_32e2eb23e7cc5725303a4593c04e7c7ee128d427\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_216edd0e3ebe60c47b4e73fef5a5a15df00c5594\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Swg\Documents\phonelab4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_c29630cfe0206377f2251f9e5537dd41919e324c\classes.dex" />
     </item>
 
 </items>
