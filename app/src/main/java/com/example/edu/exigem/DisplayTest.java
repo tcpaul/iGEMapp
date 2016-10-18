@@ -36,6 +36,14 @@ public class DisplayTest extends AppCompatActivity {
        // imageView = (ImageView) findViewById(R.id.imageview);
        // mClass = new MainActivity();
     }
+    public void doTest(View view2) {
+        Intent intent = new Intent(this, DisplayResult.class);
+        // EditText editText = (EditText) findViewById(R.id.edit_message);
+        // String message = editText.getText().toString();
+        //intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+        // Do something in response to button
+    }
 
 
         /*imageView = (ImageView) findViewById(R.id.penta);
